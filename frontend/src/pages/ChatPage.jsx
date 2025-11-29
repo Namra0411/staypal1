@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { fetchChat, sendChatMessage } from "../api/chat";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import { useAuth } from "../context/AuthContext";
 import "../StyleSheets/ChatPage.css"; 
 
