@@ -4,7 +4,7 @@ import { searchRoommatesParams } from "../api/roommate";
 import AsyncSelect from "react-select/async";
 import CreatableSelect from "react-select/creatable";
 import { City } from "country-state-city";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import "../StyleSheets/SearchRoommates.css"; 
 
 const STORAGE_KEY = "roommateFilters";
