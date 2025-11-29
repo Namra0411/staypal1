@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Filters from "../Components/Filters";
 import { fetchproperty } from "../api/filters";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 import "../StyleSheets/ViewProperty.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
